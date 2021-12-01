@@ -1,0 +1,66 @@
+:root {
+    --primary-color: brown !important;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+
+}
+
+.btn-primary:hover {
+    background-color: whitesmoke;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color:whitesmoke;
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.text-red {
+    color: white !important;
+    background-color: brown !important;
+}
+
+.text-orange {
+    color: white !important;
+    background-color:lightsalmon !important;
+}
+
+.text-green {
+    color: white !important;
+    background-color: limegreen !important;
+}
+
+.text-blue {
+    color: white !important;
+    background-color: lightskyblue !important;
+}
+
+.text-yellow {
+    color: white !important;
+    background-color: lightpink !important;
+}
+
+.text-purple {
+    color: white !important;
+    background-color: lightcoral !important;
+}
+
+.text-teal {
+    color: white !important;
+    background-color: lightseagreen !important;
+}
+
